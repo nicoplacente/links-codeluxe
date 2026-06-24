@@ -299,6 +299,13 @@
         height: 22px;
       }
 
+      .icon img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: contain;
+      }
+
       .label {
         display: grid;
         gap: 3px;
@@ -377,7 +384,7 @@
             <div class="mark" aria-hidden="true">
               <img
                 src="https://codeluxe.tech/logo-cd-3d.webp"
-                alt=""
+                alt="Logo Codeluxe"
                 loading="eager"
               />
             </div>
@@ -404,7 +411,7 @@
               aria-label="Abrir la web oficial de Codeluxe"
             >
               <span class="icon" aria-hidden="true">
-                <svg
+                <!-- <svg
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -414,10 +421,36 @@
                   <path d="M2 12h20" />
                   <path d="M12 2a15 15 0 0 1 0 20" />
                   <path d="M12 2a15 15 0 0 0 0 20" />
-                </svg>
+                </svg> -->
+                <img
+                  src="https://codeluxe.tech/logo-cd-3d.webp"
+                  alt="Logo Codeluxe"
+                  loading="eager"
+                />
               </span>
               <span class="label"
                 ><strong>Web oficial</strong><span>codeluxe.tech</span></span
+              >
+              <span class="arrow" aria-hidden="true">›</span>
+            </a>
+
+            <a
+              class="link"
+              href="https://streamcore.codeluxe.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir StreamCore"
+            >
+              <span class="icon" aria-hidden="true">
+                <img
+                  src="https://streamcore.codeluxe.tech/streamcore.webp"
+                  alt="Logo StreamCore"
+                  loading="eager"
+                />
+              </span>
+              <span class="label"
+                ><strong>StreamCore</strong
+                ><span>streamcore.codeluxe.tech</span></span
               >
               <span class="arrow" aria-hidden="true">›</span>
             </a>
